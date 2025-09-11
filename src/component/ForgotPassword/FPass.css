@@ -1,0 +1,38 @@
+.register{
+    width: 100%;
+    display: flex;
+    flex-direction:column ;
+    justify-content: center;
+    align-items: center;
+}
+.register h2{
+    padding-top: 50px;
+    padding-bottom: 15px;
+ }
+.formButton input[type="submit"]
+{
+    width: 280px;
+    border-radius: 5px;
+}
+@media (max-width: 900px){
+    .register h2{
+    font-size: 32px;
+    line-height: 20px;
+ }
+
+  } 
+  @media (max-width: 480px){
+    .register h2{
+        font-size: 22px;
+     }
+     .register p{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 10px;
+      } 
+
+ .formButton input[type="submit"]
+ {
+     width: 180px;
+ }
+} 

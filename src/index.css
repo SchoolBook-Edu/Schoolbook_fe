@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background: #fff;
+  color: #000000;
+  font-family: "Work Sans", sans-serif;
+}
+h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  margin: 0px;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+}
+button {
+  border: none;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 20px;
+  background: #407BFF;
+  color: #FFFFFF;
+  /* border: 1px solid #407BFF; */
+  padding: 12px 30px;
+  /* border-radius: 8px */
+}
+
+.outline {
+  outline-style: none;
+}
+div#file-name {
+  display: none;
+}

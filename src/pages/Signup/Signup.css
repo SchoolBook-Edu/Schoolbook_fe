@@ -1,0 +1,146 @@
+.signup{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.signup-container{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+.container{
+    width: 100%;
+}
+.tab{
+    width: 40%; 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 40px 100px 40px;
+    background: #407BFF;
+}
+.signup-container .form{
+    width: 70%;
+    background: #FFFFFF;
+}
+.logo{
+    width: 80px;
+    height: 80px;
+    margin: 20px 20px;
+    background: #FFFFFF;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.passrecover{
+    width: 100%;
+}
+.verify{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.verify-page{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 0px;
+}
+.verify-page h2{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 171.52%;
+}
+.verify-page p{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 48px;
+    text-align: center;
+}
+/* .verify-page button{
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #407BFF;
+    border-radius: 3px;
+    padding: 25px 10px;
+} */
+
+@media (max-width: 900px){
+    .signup{
+        width: 100%;
+        display: flex;
+    }
+    .signup-container{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .tab{
+        width: 100%; 
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+        background: #407BFF;
+    }
+    .signup-container .form{
+        width: 100%; 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .logo{
+        width: 15%;
+        height: 15%;
+        border-radius: 100%;
+    }
+    .verify-page h2{
+        font-size: 30px;
+        line-height: 140%;
+    }
+    .verify-page p{
+        font-size: 20px;
+        line-height: 50px;
+    }
+    .verify-page button{
+        font-size: 22px;
+        padding: 25px 70px;
+    }
+}
+@media (max-width: 480px){
+    .verify-page h2{
+        font-size: 28px;
+    }
+    .verify-page p{
+        font-size: 16px;
+        line-height: 40px;
+    }
+    .verify-page button{
+        font-size: 16px;
+        padding: 20px 50px;
+    }
+}

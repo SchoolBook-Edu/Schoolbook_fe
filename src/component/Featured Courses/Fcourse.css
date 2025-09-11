@@ -1,0 +1,96 @@
+.fcourse{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: left;
+   max-width: 325px;
+   width: 100%;
+   background-color: #FFFFFF;
+   margin-right: 20px;
+   margin-bottom: 20px;
+   box-shadow: 0px -4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: 100%;
+}
+
+.fcourse-img{
+width: 325px;
+}
+.fcourse img{
+    width: 100%;
+    height: 264px;
+    object-fit: cover;
+
+}
+.fcourse-text{
+    flex-grow: 1;
+    padding: 20px 20px;
+}
+.fcourse-text h2{
+    font-size: 20px;
+}
+.fcourse-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fcourse-span span{
+    margin: 20px 0px;
+    font-size: 16px;
+    color:#000000;
+}
+.status{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.095em;
+    color: #1DB954;
+}
+.fcourse-span .amount{
+    font-weight: 700;
+    font-size: 24px;
+    color:#407BFF;
+}
+.fcourse-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+}
+/* .fcourse-button button{
+    margin: 0px;
+    margin-top: 30px;
+    padding: 20px 90px;
+    background: #407BFF;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 24px;
+    color:#FFFFFF;
+} */
+  @media (max-width: 480px){
+    .fcourse {
+        width: 300px;
+    }
+    .fcourse-img{
+        width: 300px;
+        }
+     .fcourse img{
+        width: 300px;
+        height: 250px;
+    }
+    .fcourse-text h2{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .fcourse-span span{
+        font-size: 12px;
+    }
+    .fcourse-span .amount{
+        font-size: 20px;
+    }
+    .fcourse-text button{
+        padding: 15px 70px;
+        font-size: 16px;
+    }
+  }
+ 
