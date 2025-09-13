@@ -2,6 +2,7 @@
   "name": "schoolbook",
   "version": "0.1.0",
   "private": true,
+  "homepage": "schoolbook-fe-theta.vercel.app",
   "dependencies": {
     "@cyntler/react-doc-viewer": "^1.14.1",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
